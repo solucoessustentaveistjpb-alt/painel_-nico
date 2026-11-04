@@ -1260,11 +1260,11 @@
                   <div class="flex justify-between items-center"><span class="text-slate-300">Natalício:</span><span class="font-mono text-amber-400">01, 66, 92</span></div>
                   <div class="flex justify-between items-center"><span class="text-slate-300">Ananda:</span><span class="font-mono text-amber-400">15, 18, 24, 78, 34</span></div>
                   <div class="flex justify-between items-center"><span class="text-slate-300">Cecília:</span><span class="font-mono text-amber-400">30, 96</span></div>
-                  <div class="flex justify-between items-center"><span class="text-slate-300">Edvânia:</span><span class="font-mono text-amber-400">28, 43, 46, 67</span></div>
+                  <div class="flex justify-between items-center"><span class="text-slate-300">Edvânia:</span><span class="font-mono text-amber-400">03, 28, 43, 46, 67</span></div>
                   <div class="flex justify-between items-center"><span class="text-slate-300">Maria de Lourdes:</span><span class="font-mono text-amber-400">02, 25, 59</span></div>
                   <div class="flex justify-between items-center"><span class="text-slate-300">Marcella:</span><span class="font-mono text-amber-400">81, 93, 99</span></div>
                   <div class="flex justify-between items-center"><span class="text-slate-300">Alex:</span><span class="font-mono text-amber-400">00, 05, 14</span></div>
-                  <div class="flex justify-between items-center"><span class="text-slate-300">Sara:</span><span class="font-mono text-amber-400">03, 23, 86</span></div>
+                  <div class="flex justify-between items-center"><span class="text-slate-300">Sara:</span><span class="font-mono text-amber-400">86</span></div>
                 </div>
               </div>
 
@@ -1619,11 +1619,11 @@
     addSub(['01', '66', '92'], 'NATALÍCIO', 'EQUIPE NATALÍCIO');
     addSub(['15', '18', '24', '78', '34'], 'ANANDA', 'EQUIPE NATALÍCIO');
     addSub(['30', '96'], 'CECÍLIA', 'EQUIPE NATALÍCIO');
-    addSub(['28', '43', '46', '67'], 'EDVÂNIA', 'EQUIPE NATALÍCIO');
+    addSub(['03', '28', '43', '46', '67'], 'EDVÂNIA', 'EQUIPE NATALÍCIO');
     addSub(['02', '25', '59'], 'MARIA DE LOURDES', 'EQUIPE NATALÍCIO');
     addSub(['81', '93', '99'], 'MARCELLA', 'EQUIPE NATALÍCIO');
     addSub(['00', '05', '14'], 'ALEX', 'EQUIPE NATALÍCIO');
-    addSub(['03', '23', '86'], 'SARA', 'EQUIPE NATALÍCIO');
+    addSub(['86'], 'SARA', 'EQUIPE NATALÍCIO');
 
     const PROD_MAPA_SUBDIGITOS = {};
     const PROD_CHEFIA_POR_SERVIDOR = {};
@@ -4072,7 +4072,7 @@
     };
 
     window.addEventListener('DOMContentLoaded', () => {
-      // Dispara o relógio imediatamente na inicialização
+      // Dispara o relógio imediatamente na inicialização para evitar o delay de 1s
       atualizarRelogio();
       setInterval(atualizarRelogio, 1000);
 
